@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="with=devices-with, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="description" content="Four Boxes Slideshow: Recreating the background image slideshow seen on Atelier Serge Thoroval's website" />
+	<meta name="keywords" content="background slideshow, boxes, background image, four panels, css, tutorial" />
+	<meta name="author" content="Codrops" />
+	<link rel="stylesheet" type="text/css" href="/assets/css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Montserrat:300i,400,700&display=swap&subset=cyrillic-ext" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/df54430056.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+	<title>Snowboarding</title>
+	<script src="/js/js/modernizr.custom.js"></script>
+</head>
+<body>
+<header class="header" id="header">
+	<div class="header__inner">
+		<div class="header__item">
+			<div class="header__logo" data-scroll="#intro">
+				<img src="/assets/images/header/logo.png">
+			</div>
+
+			<nav class="nav" id="nav">
+				<a class="nav__link" href="#o" data-scroll="#shop">shop</a>
+				<a class="nav__link" href="#" data-scroll="#team">team</a>
+				<a class="nav__link" href="#" data-scroll="#features">events</a>
+				<a class="nav__link" href="#" data-scroll="#expirience">expirience</a>
+				<a class="nav__link" href="#" data-scroll="#company">company</a>
+				<a class="nav__link" href="#" data-scroll="#footer">contact</a>
+			</nav>
+		</div>
+		<div class="header__item">
+			<nav class="nav">
+				<a class="nav__link" href="#">
+					<i class="far fa-search"></i>
+				</a>
+				<a class="nav__link" href="#">
+					<i><i class="far fa-lock"></i></i>100$
+				</a>
+			</nav>
+		</div>
+		<button class="nav-toggle" id="nav-toggle" type="button">
+			<span class="nav-toggle__item"></span>
+		</button>
+	</div>
+</header>
+
+<div class="page">
+
+	<div class="intro" id="intro">
+
+		<div class="boxgallery" id="boxgallery">
+				<div class="bg-tile activ">
+					<div class="bg-img">
+						<img src="/assets/images/intro/bg1.jpg" alt="Image 1">
+					</div>
+				</div>
+				<div class="bg-tile">
+					<div class="bg-img">
+						<img src="/assets/images/intro/bg2.jpg" alt="Image 1">
+					</div>
+				</div>
+			<nav>
+				<span id="prevBg">
+					<i></i>
+				</span>
+				<span id="nextBg">
+					<i></i>
+				</span>
+			</nav>
+		</div>
+		<div class="intro__inner">
+			<div class="intro__title">Run over everything</div>
+			<a class="btn" href="#">see details</a>
+		</div>
+
+	</div>	
+
+	<section class="section" id="shop">
+
+		<div class="shop">
+			<div class="section__header">
+				<div class="section__title">Snowboards</div>
+				<div class="section__suptitle">Aliquam erat volutpat. Curabitur ut consequat arcu eget laoreet est</div>
+				<div class="after"></div>
+			</div>
+
+				<div class="shop__item">
+					<div center>
+						<div>
+							<img class="shop__foto" src="/assets/images/boards/board1.png">
+						</div>
+						<div>
+							<img class="shop__foto" src="/assets/images/boards/board2.png">
+						</div>
+						<div>
+							<img class="shop__foto" src="/assets/images/boards/board3.png">
+						</div>
+						<div>
+							<img class="shop__foto" src="/assets/images/boards/board4.png">
+						</div>
+						<div>
+							<img class="shop__foto" src="/assets/images/boards/board5.png">
+						</div>
+						<div>
+							<img class="shop__foto" src="/assets/images/boards/board6.png">
+						</div>
+					</div>
+				</div>
+			<div class="shop__text">Snowboard extreme Series</div>
+		</div>
+
+	</section>
+
+
+	<section class="section" id="company">
+		<div class="company">
+		<div class="container">
+			<div class="company__item">
+				<div class="company__title">
+					<div class="company__suptitle">The Mountains
+					Snowboarding</div><span>®</span>
+				</div>
+				<div class="company__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tincidunt auctor facilisis. Nam massa dui, imperdiet et mi ut, sagittis viverra odio. Duis et lectus eu enim gravida vulputate nec eget nisi. Nunc ultrices velit blandit, dapibus lacus in, feugiat erat. Donec non porttitor augue, sit amet lacinia purus. Nulla fringilla quam est, luctus dapibus odio suscipit ut. Vivamus et lectus a nunc fringilla volutpat. Morbi sed congue sem.</div>
+				<div class="company__text">
+				Aliquam erat volutpat. Curabitur ut consequat arcu, eget laoreet est. Vivamus semper nibh sit amet libero hendrerit luctus. Fusce non bibendum lorem. Fusce laoreet risus eget tortor lobortis egestas. Etiam tempus quam sed felis viverra scelerisque. Integer fringilla libero risus, vel euismod turpis auctor ac. Proin elementum aliquet libero a dapibus. Mauris et tempor dolor.</div>
+			</div>
+		</div>
+		</div>
+	</section>
+
+
+	<section class="section" id="features">
+
+		<div class="features">
+			<div class="section__header">
+				<div class="section__title">Features</div>
+				<div class="after"></div>
+			</div>
+			<div class="features__stories">
+				<div class="features__item">
+					<img class="features__img" src="/assets/images/features/features1.jpg">
+					<div class="features__text">Born Identity: Bringing Burton Hardgoods to Life</div>
+				</div>
+				<div class="features__item">
+					<img class="features__img" src="/assets/images/features/features2.jpg">
+					<div class="features__text">Jeremy Jones: On That Street Grind</div>
+				</div>
+				<div class="features__item">
+					<img class="features__img" src="/assets/images/features/features3.jpg">
+					<div class="features__text">Burton’s Tokyo Rail Days Recap</div>
+				</div>
+				<div class="features__item">
+					<img class="features__img" src="/assets/images/features/features4.jpg">
+					<div class="features__text">Burton’s Tokyo Rail Days Preview</div>
+				</div>
+			</div>
+
+		</div>
+	</section>
+
+
+	<footer id="footer">
+		<div class="container">
+		<div class="footer__inner">
+		<div class="footer__col">
+			<div class="footer__title">Products</div>
+			<div class="footer__suptitle">
+				<div class="suptitle__item">
+					<a href="#">Mens</a>
+				</div>
+				<div class="suptitle__item">
+					<a href="#">Women</a>
+				</div>
+				<div class="suptitle__item">
+					<a href="#">Youth</a>
+				</div>
+			</div>
+		</div>
+		<div class="footer__col">
+			<div class="footer__title">About</div>
+			<div class="footer__suptitle">
+				<div class="suptitle__item">
+					<a href="#">Careers and Internships</a>
+				</div>
+				<div class="suptitle__item">
+					<a href="#">Sponsorships</a>
+				</div>
+				<div class="suptitle__item">
+					<a href="#">team</a>
+				</div>
+				<div class="suptitle__item">
+					<a href="#">Catalog Request/Download</a>
+				</div>
+			</div>
+		</div>
+		<div class="footer__col">
+			<div class="footer__title">Costumer Support</div>
+			<div class="footer__suptitle">
+				<div class="suptitle__item">
+					<a href="#">Contact Us</a>
+				</div>
+				<div class="suptitle__item">
+					<a href="#">Shipping and Order Tracking</a>
+				</div>
+				<div class="suptitle__item">
+					<a href="#">Easy Returns</a>
+				</div>
+				<div class="suptitle__item">
+					<a href="#">Replacement Binding Parts</a>
+				</div>
+			</div>
+		</div>
+		<div class="footer__col">
+			<div class="footer__title">Newsletter</div>
+			<div class="footer__suptitle">
+				<form class="subscribe" action="/" method="post">
+					<input class="subscribe__input" type="Email" name="name" placeholder="Enter your email">
+					<button class="subscribe__btn" type="submit">Go</button>
+				</form>
+			</div>
+			<div class="footer__social">
+				<a href="#" target="_blank">
+					<i class="fab fa-facebook-f"></i>
+				</a>
+				<a href="#" target="_blank">
+					<i class="fab fa-instagram"></i>
+				</a>
+				<a href="#" target="_blank">
+					<i class="fab fa-twitter"></i>
+				</a>
+				<a href="#" target="_blank">
+					<i class="fab fa-youtube"></i>
+				</a>
+				<a href="#" target="_blank">
+					<i class="fab fa-pinterest-p"></i>
+				</a>
+			</div>
+		</div>
+		</div>
+
+		<div class="copyright">
+			<div class="copyright__item">© 2014 Mountains Snowboards</div>
+			<div class="copyright__item">
+				<img src="images/USA.png">
+				<div class="copyright__text">Change Region</div>
+			</div>
+		</div>
+		</div>
+	</footer>
+
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script src="/js/js/app.js" type="text/javascript"></script>
+<script src="/js/js/classie.js" type="text/javascript"></script>
+<script src="/js/js/boxes.js" type="text/javascript"></script>
+
+
+</body>
+</html>
